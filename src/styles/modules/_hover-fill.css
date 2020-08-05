@@ -1,0 +1,9 @@
+.hover-fill {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+}
+.hover-fill:hover {
+  border-bottom: 2px solid $darkgreen;
+}

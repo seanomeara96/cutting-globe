@@ -1,0 +1,10 @@
+.generic-container {
+  line-height: 1.2;
+  ul {
+    margin: 0;
+    padding-left: 2rem;
+  }
+  li {
+    margin-bottom: 0.6rem;
+  }
+}

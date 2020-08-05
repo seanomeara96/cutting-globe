@@ -1,0 +1,15 @@
+.top-nav {
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 0.6rem;
+  }
+  li:last-child {
+    margin-right: 0;
+  }
+}

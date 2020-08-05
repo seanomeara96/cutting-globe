@@ -1,0 +1,14 @@
+.btn {
+  background-color: $darkgreen;
+  margin-bottom: 0.6rem;
+  margin-right: 0.3rem;
+  color: $main;
+  padding: 0.6rem;
+  border-radius: 0.6rem;
+  border: none;
+  &--secondary {
+    color: $darkgreen;
+    background-color: $main;
+    border: 1px solid $darkgreen;
+  }
+}
