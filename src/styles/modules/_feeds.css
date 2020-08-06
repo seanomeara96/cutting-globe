@@ -1,0 +1,12 @@
+.feeds {
+  &__container {
+    position: relative;
+    height: 40rem;
+    @mixin atSmall {
+      height: 62vw;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

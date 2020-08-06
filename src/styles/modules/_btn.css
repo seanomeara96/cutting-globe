@@ -9,8 +9,8 @@
   border-radius: 0.6rem;
   border: none;
   &--secondary {
-    color: $darkgreen;
-    font-weight: 400;
+    color: rgba($darkgreen, 0.8);
+    font-weight: 500;
     background-color: $main;
     border: 1px solid $lightgreen;
   }

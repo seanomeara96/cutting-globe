@@ -1,4 +1,13 @@
 .rows {
+  &--space-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &--clearance > div {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
   & > div {
     @mixin atSmall {
       padding-right: 1rem;
