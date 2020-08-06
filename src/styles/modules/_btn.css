@@ -1,5 +1,7 @@
 .btn {
-  background-color: $darkgreen;
+  font-weight: 700;
+  font-size: 1.1rem;
+  background-color: $red;
   margin-bottom: 0.6rem;
   margin-right: 0.3rem;
   color: $main;
@@ -8,7 +10,8 @@
   border: none;
   &--secondary {
     color: $darkgreen;
+    font-weight: 400;
     background-color: $main;
-    border: 1px solid $darkgreen;
+    border: 1px solid $lightgreen;
   }
 }

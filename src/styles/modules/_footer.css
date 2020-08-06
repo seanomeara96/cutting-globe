@@ -1,4 +1,5 @@
 .footer {
   background-color: $darkgreen;
   color: $main;
+  text-align: center;
 }
