@@ -2,6 +2,8 @@ import React from "react"
 import Slideshow from "../components/slideshow"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
+import ebayImg from "../images/EBay_former_logo.svg"
+import amazonImg from "../images/Amazon_logo.svg"
 const About = () => (
   <Layout>
     <section className="page-section">
@@ -76,7 +78,7 @@ const About = () => (
               <Link to="">
                 <img
                   className="full-img full-img--contain"
-                  src="./images/Amazon_logo.svg"
+                  src={amazonImg}
                   alt=""
                 />
               </Link>
@@ -92,7 +94,7 @@ const About = () => (
               <Link to="">
                 <img
                   className="full-img full-img--contain"
-                  src="./images/EBay_former_logo.svg"
+                  src={ebayImg}
                   alt=""
                 />
               </Link>

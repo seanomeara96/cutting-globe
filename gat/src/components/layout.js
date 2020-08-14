@@ -12,6 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "../../node_modules/semantic-ui-css/semantic.min.css"
 import "../css/styles.css"
+import footerImg from "../images/footer.jpg"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -27,23 +28,15 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer className="page-section footer">
-          <div className="wrapper">
-            Copyright © Sean O'Meara. All rights reserved.
-          </div>
-          <div className="footer__img">
-            <img src="./images/footer.jpg" alt="" />
-          </div>
-        </footer>
-      </div>
+      {children}
+      <footer className="page-section footer">
+        <div className="wrapper">
+          Copyright © Sean O'Meara. All rights reserved.
+        </div>
+        <div className="footer__img">
+          <img src={footerImg} alt="" />
+        </div>
+      </footer>
     </>
   )
 }

@@ -1,4 +1,8 @@
 import React from "react"
+import step1 from "../images/step1.png"
+import step2 from "../images/step2.png"
+import step3 from "../images/step3.png"
+import step4 from "../images/step4.png"
 
 class SlideShow extends React.Component {
   state = { count: 0, numberOfSlides: 4 }
@@ -6,6 +10,7 @@ class SlideShow extends React.Component {
     super(props)
     this.timer = null
     this.interval = 3000
+    this.slides = [step1, step2, step3, step4]
   }
   componentDidMount() {
     this.startSlideShow()
@@ -22,11 +27,7 @@ class SlideShow extends React.Component {
               : "slideshow__slide--is-hidden"
           }
         >
-          <img
-            src={`/images/step${i + 1}.png`}
-            className="slideshow__img"
-            alt=""
-          />
+          <img src={this.slides[i]} className="slideshow__img" alt="" />
         </div>
       )
     }

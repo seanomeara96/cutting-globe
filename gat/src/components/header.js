@@ -5,7 +5,9 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header className="site-header wrapper page-section">
     <div>
-      <h1 className="headline">{siteTitle}</h1>
+      <Link to="/" className="null">
+        <h1 className="headline">{siteTitle}</h1>
+      </Link>
       <nav className="top-nav">
         <ul>
           <li>
