@@ -79,34 +79,34 @@ const About = () => (
         <div className="rows rows--clearance">
           <div className="rows__50 rows--space-between">
             <div className="ecom-logo">
-              <Link to="">
+              <a href="">
                 <img
                   className="full-img full-img--contain"
                   src={amazonImg}
                   alt=""
                 />
-              </Link>
+              </a>
             </div>
             <h3 className="headline headline--center headline--link">
-              <Link to="" className="null">
+              <a href="" className="null">
                 Get your Cutting Globes on Amazon
-              </Link>
+              </a>
             </h3>
           </div>
           <div className="rows__50 rows--space-between">
             <div className="ecom-logo">
-              <Link to="">
+              <a href="">
                 <img
                   className="full-img full-img--contain"
                   src={ebayImg}
                   alt=""
                 />
-              </Link>
+              </a>
             </div>
             <h3 className="headline headline--center headline--link">
-              <Link to="" className="null">
+              <a href="" className="null">
                 Get your Cutting Globes on Ebay
-              </Link>
+              </a>
             </h3>
           </div>
         </div>
