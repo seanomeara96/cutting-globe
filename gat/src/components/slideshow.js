@@ -1,16 +1,13 @@
 import React from "react"
-import step1 from "../images/step1.png"
-import step2 from "../images/step2.png"
-import step3 from "../images/step3.png"
-import step4 from "../images/step4.png"
-
+// accepts an array of "slides"
 class SlideShow extends React.Component {
-  state = { count: 0, numberOfSlides: 4 }
+  state = { count: 0, numberOfSlides: 0 }
   constructor(props) {
     super(props)
     this.timer = null
     this.interval = 3000
-    this.slides = [step1, step2, step3, step4]
+    this.slides = this.props.slides
+    this.setState({ numberOfSlides: this.slides.length })
   }
   componentDidMount() {
     this.startSlideShow()

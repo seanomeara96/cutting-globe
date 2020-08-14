@@ -4,6 +4,10 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import ebayImg from "../images/EBay_former_logo.svg"
 import amazonImg from "../images/Amazon_logo.svg"
+import step1 from "../images/step1.png"
+import step2 from "../images/step2.png"
+import step3 from "../images/step3.png"
+import step4 from "../images/step4.png"
 const About = () => (
   <Layout>
     <section className="page-section">
@@ -19,7 +23,7 @@ const About = () => (
               to take larger cuttings from shrubs and trees.
             </p>
 
-            <Slideshow />
+            <Slideshow slides={[step1, step2, step3, step4]} />
           </div>
           <div className="rows__62">
             <div className="generic-container">
