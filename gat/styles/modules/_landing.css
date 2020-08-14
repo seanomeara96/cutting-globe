@@ -1,0 +1,7 @@
+.landing {
+  padding-bottom: 2rem;
+  & > div {
+    position: relative;
+    height: 100%;
+  }
+}

@@ -1,0 +1,13 @@
+.landing-hero {
+  height: 100%;
+  margin-left: -1rem;
+  @mixin atMedium {
+    margin-left: -2rem;
+  }
+  & > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}

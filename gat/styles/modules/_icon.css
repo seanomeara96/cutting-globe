@@ -1,0 +1,14 @@
+.icon {
+  &--yt {
+    color: $red;
+  }
+  &--fb {
+    color: $fb;
+  }
+  &--ig {
+    color: $ig;
+  }
+  &--tw {
+    color: $tw;
+  }
+}

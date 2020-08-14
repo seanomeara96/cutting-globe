@@ -1,0 +1,21 @@
+.product-image {
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  &__preview-area {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    &__preview {
+      width: 62px;
+      height: 100px;
+      overflow: hidden;
+      margin-right: 1rem;
+    }
+    &__preview-img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}

@@ -1,0 +1,76 @@
+.rows {
+  &--space-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &--clearance > div {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  & > div {
+    @mixin atSmall {
+      padding-right: 1rem;
+    }
+    @mixin atMedium {
+      padding-right: 2rem;
+    }
+  }
+  @mixin atSmall {
+    display: flex;
+    align-items: stretch;
+    margin-right: -1rem;
+  }
+  @mixin atMedium {
+    margin-right: -2rem;
+  }
+
+  &__50 {
+    width: 100%;
+    @mixin atSmall {
+      width: 50%;
+    }
+  }
+  &__33 {
+    width: 100%;
+    @mixin atSmall {
+      width: 33%;
+    }
+  }
+  &__38 {
+    width: 100%;
+    @mixin atSmall {
+      width: 38%;
+    }
+  }
+  &__62 {
+    width: 100%;
+    @mixin atSmall {
+      width: 62%;
+    }
+  }
+  &__60 {
+    width: 100%;
+    @mixin atSmall {
+      width: 60%;
+    }
+  }
+  &__40 {
+    width: 100%;
+    @mixin atSmall {
+      width: 40%;
+    }
+  }
+  &__55 {
+    width: 100%;
+    @mixin atSmall {
+      width: 55%;
+    }
+  }
+  &__45 {
+    width: 100%;
+    @mixin atSmall {
+      width: 45%;
+    }
+  }
+}

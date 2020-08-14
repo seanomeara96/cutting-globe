@@ -1,0 +1,20 @@
+.site-header {
+  height: 100%;
+  position: relative;
+  .generic-container {
+    height: calc(100% - 6.5rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &--row {
+    @mixin atMedium {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  &__btns button:last-child {
+    margin-bottom: 0;
+  }
+}
