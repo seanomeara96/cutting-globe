@@ -1,4 +1,4 @@
-@import "normalize.css";
+@import "../../node_modules/semantic-ui-css/semantic.min.css";
 @import "./base/_vars.css";
 @import "./base/_mixins.css";
 @import "./base/_global.css";
@@ -6,7 +6,7 @@
 @import "./modules/_page-section.css";
 @import "./modules/_landing-hero.css";
 @import "./modules/_wrapper.css";
-@import "./modules/_header.css";
+@import "./modules/_site-header.css";
 @import "./modules/_headline.css";
 @import "./modules/_top-nav.css";
 @import "./modules/_rows.css";
@@ -22,3 +22,7 @@
 @import "./modules/_icon.css";
 @import "./modules/_feeds.css";
 @import "./modules/_slideshow.css";
+@import "./modules/_card.css";
+@import "./modules/_description.css";
+@import "./modules/_product-image.css";
+@import "./modules/_commerce-buttons.css";

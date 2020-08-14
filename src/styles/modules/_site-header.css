@@ -1,5 +1,4 @@
-.header {
-  color: $darkgreen;
+.site-header {
   height: 100%;
   position: relative;
   .generic-container {

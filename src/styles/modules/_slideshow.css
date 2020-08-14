@@ -1,7 +1,6 @@
 .slideshow {
   position: relative;
   overflow: hidden;
-
   height: 50vh;
   margin: auto;
   margin-bottom: 2rem;
@@ -30,14 +29,22 @@
   }
   &__btn {
     position: absolute;
+    display: flex;
+    align-items: center;
+    i {
+      color: rbga(#000, 0.1);
+      display: none;
+    }
     top: 0;
     height: 100%;
     width: 50%;
     &--left {
       left: 0;
+      justify-content: flex-start;
     }
     &--right {
       right: 0;
+      justify-content: flex-end;
     }
   }
 }
