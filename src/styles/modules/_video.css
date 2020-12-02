@@ -1,8 +1,0 @@
-.video {
-  margin: auto;
-  display: block;
-  width: 100%;
-  @mixin atMedium {
-    width: auto;
-  }
-}

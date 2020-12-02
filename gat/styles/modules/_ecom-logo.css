@@ -1,9 +1,0 @@
-.ecom-logo {
-  padding: 1rem;
-  @mixin atSmall {
-    padding: 1rem 2.5rem 1rem 2.5rem;
-  }
-  @mixin atMedium {
-    padding: 1rem 4rem 1rem 4rem;
-  }
-}

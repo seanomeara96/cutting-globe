@@ -1,7 +1,0 @@
-.description {
-  margin-bottom: 2rem;
-  &__constrained {
-    max-height: 100px;
-    overflow: hidden;
-  }
-}
