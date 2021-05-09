@@ -1,0 +1,18 @@
+export default [
+  "Irish Stockists:Galway:Clarenbridge Garden Centre, www.clarenbridgegardencentre.ie, +35391 776492​Gort Garden Centre, +35391 648532​Mc Gaughs Garden Centre Headford Rd, +35391755330McD`s Loughrea Garden Centre, +35391755330Ballinasloe Garden Centre, +353909643787Charlie's N6 Ballinasloe​Ollie Colohans, +3539096 43667Hickeys Kilconnell, +353909686612​Duanes Hardware Kiltullagh, +35391 848562Horkan's Garden Centre, +35391739958Dangan Garden Centre, +35391524716Mc Donogh's Hardware, +35391779200Kilconnell Garden Centre, +353879882804Dublin:​Urban Plant Life, +35314536201Newlands, +35314592013Howth Garden Centre, +3531 8396754Jones Garden Centre, +35318401781Mr Middleton, +3531873 1118 Cork:Hanley's Garden Centre, +353214314464 Sweet Magnolia Garden Centre, +353217335871Griffin's Garden Centre, +353217334600Limerick:Busy Bee Garden Centre, +35361452706Tipperary:Clonmel Garden Centre, +353526123294 LongfordJenny White Flowers, +353906432409MayoHorkan's Garden Centre,  +35394 9031435SligoHorkan's Garden Centre, +35371 9138870KerryKillarney Garden Centre, +353646639967ClareGreen Little Fingers, +353868036384, www.greenlittlefingers.ieVaughan's Garden Centre, +353656893408",
+  "Stockists",
+  "In Europe:Norway:Garden LivingSweden:WexthusetBelgium​:Bonsai StudioThe Netherlands​:Bonsai Hoek",
+  "",
+  "FRANCE",
+  "ANNE CLARK",
+  "contact​https://www.facebook.com/Arbres.et.Abeilles/",
+  "Uk:D and M Promotionhttp://dmpromotions.co.uk/product/cutting-globe",
+  "Botany plants U.K., www.botanyplants.co.ukPremier Hydroponics Scotland, 01506852199, www.premierhydroponics.comGH Stores Falkirk, +441379844123Common Greenery Garden Centre, 5 Townhead St, Strathaven ML10 6AB, UKGarden Naturally, Cirencester Rd, Chalford GL6 8PE, UK, +441285760505Bali Hai Mail Order Plants, +442828885289, County AntrimLangthorns Plantery, Essex, www.langthorns.comUSA​:",
+  "LONG CREEK HERBS",
+  "JIM LONG",
+  "Green Door Farms",
+  "​Aus:The Diggers Club",
+  "Copyright © CUTTING GLOBE. All rights reserved.",
+  "PRESS THE GREEN BUTTON",
+  "USA stockists currently out of stock ..more stockists required",
+]

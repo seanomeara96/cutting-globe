@@ -1,0 +1,15 @@
+---
+  slug: "/shop/gift-set-11-pieces-boxed-gift-set"
+  title: "GIFT SET 11 PIECES BOXED GIFT SET"
+  price: "€29,00"
+---
+  BUMPER PACK
+11 GLOBES 
+2 LARGE
+ 3 MEDIUM 
+6 SMALL
+PERLITE
+WATER GEL 
+INSTRUCTIONS 
+ORGANIC ROOTING POWDER
+BOXED GIFT SET

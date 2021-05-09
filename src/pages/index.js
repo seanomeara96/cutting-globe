@@ -1,17 +1,26 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-
+import { homePageContent } from "../content/home"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-
+import { aboutCG } from "../content/about"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
+    <h1>Welcome to The Cutting Globe Homepage</h1>
+    <p id="introParagraph" className="">
+      {homePageContent.introParagraph}
+    </p>
+    {renderInfoSections(aboutCG.infoSections)}
+    <p>
+      <Link to="/shop/">Go to page 2</Link>
+    </p>
+  </Layout>
+)
+
+export default IndexPage
+/**
+ * <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}
       quality={95}
@@ -19,11 +28,31 @@ const IndexPage = () => (
       alt="A Gatsby astronaut"
       style={{ marginBottom: `1.45rem` }}
     />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
-  </Layout>
-)
+ */
 
-export default IndexPage
+const renderInfoSections = sections => {
+  let content
+  return sections.map(section => {
+    if (section.content.length > 1) {
+      content = (
+        <ol>
+          {section.content.map(i => (
+            <li key={i}>{i}</li>
+          ))}
+        </ol>
+      )
+    } else {
+      content = <p>{section.content[0]}</p>
+    }
+    return (
+      <section key={section.title} className="info-section">
+        <details>
+          <summary>
+            <h2 className="section-title">{section.title}</h2>
+          </summary>
+          {content}
+        </details>
+      </section>
+    )
+  })
+}
