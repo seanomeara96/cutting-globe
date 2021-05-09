@@ -10,16 +10,11 @@ let plugins = [
   require("cssnano"),
 ]
 gulp.task("style", function () {
-  gulp.watch("./styles/**/*.css").on("change", () => {
-    console.log("compiling...")
-    return gulp
+  gulp.watch("./styles/**/*.css").on("change", () =>
+    gulp
       .src("./styles/*.css")
       .pipe(postcss(plugins))
-      .on("error", function (err) {
-        console.log(err.toString())
-
-        this.emit("end")
-      })
+      .on("error", () => this.emit("end"))
       .pipe(gulp.dest("./src/css"))
-  })
+  )
 })

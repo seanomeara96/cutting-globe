@@ -1,42 +1,32 @@
-import { Link } from "gatsby"
+import * as React from "react"
 import PropTypes from "prop-types"
-import React from "react"
+import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
-  <header className="site-header wrapper page-section">
-    <div>
-      <Link to="/" className="null">
-        <h1 className="headline">{siteTitle}</h1>
-      </Link>
-      <nav className="top-nav">
-        <ul>
-          <li>
-            <a href="products.html" className="null">
-              Shop
-            </a>
-          </li>
-          <li>
-            <Link to="/about" className="null">
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to="/contact" className="null">
-              Contact
-            </Link>
-          </li>
-        </ul>
-      </nav>
-    </div>
-
-    <div className="generic-container">
-      <h2 className="headline">Start growing your own free plants!</h2>
-      <div className="site-header__btns">
-        <Link to="/shop" className="ui green button">
-          Buy Now!
+  <header
+    style={{
+      background: `rebeccapurple`,
+      marginBottom: `1.45rem`,
+    }}
+  >
+    <div
+      style={{
+        margin: `0 auto`,
+        maxWidth: 960,
+        padding: `1.45rem 1.0875rem`,
+      }}
+    >
+      <h1 style={{ margin: 0 }}>
+        <Link
+          to="/"
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+          }}
+        >
+          {siteTitle}
         </Link>
-        <button className="ui primary basic button">Sign Up for Updates</button>
-      </div>
+      </h1>
     </div>
   </header>
 )
