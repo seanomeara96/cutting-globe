@@ -1,16 +1,17 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { homePageContent } from "../content/home"
+import { Introduction } from "../content/home"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { aboutCG } from "../content/about"
+import { loadStripe } from "@stripe/stripe-js"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <h1>Welcome to The Cutting Globe Homepage</h1>
-    <p id="introParagraph" className="">
-      {homePageContent.introParagraph}
-    </p>
+    <div id="introParagraph" className="">
+      <Introduction />
+    </div>
     {renderInfoSections(aboutCG.infoSections)}
     <p>
       <Link to="/shop/">Go to page 2</Link>
@@ -42,7 +43,9 @@ const renderInfoSections = sections => {
         </ol>
       )
     } else {
-      content = <p>{section.content[0]}</p>
+      content = (
+        <div dangerouslySetInnerHTML={{ __html: section.content[0] }}></div>
+      )
     }
     return (
       <section key={section.title} className="info-section">

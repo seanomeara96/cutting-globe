@@ -1,3 +1,4 @@
+require("dotenv").config()
 module.exports = {
   siteMetadata: {
     title: `The Cutting Globe`,
@@ -6,6 +7,14 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-source-stripe`,
+      options: {
+        objects: ["Price"],
+        secretKey: process.env.STRIPE_SECRET_KEY,
+        downloadFiles: false,
+      },
+    },
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,

@@ -1,9 +1,9 @@
 import * as React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
-
+import { loadStripe } from "@stripe/stripe-js"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
-
+import Products from "../../components/products/products"
 const Shop = () => {
   const data = useStaticQuery(graphql`
     query MyQuery {
@@ -25,22 +25,7 @@ const Shop = () => {
   return (
     <Layout>
       <Seo title="Shop The Cutting Globes" />
-      <h1>Welcome to The Cutting Globe shop</h1>
-      <p>
-        Delivery in Ireland costs €x and delivery is expected to take 3-4weeks
-      </p>
-      {edges.map(({ node }) => {
-        const { frontmatter } = node
-        const { price, slug, title } = frontmatter
-        return (
-          <div>
-            <h3 className="product-title">
-              <Link to={slug}>{title}</Link>
-            </h3>
-            <span>{price}</span>
-          </div>
-        )
-      })}
+      <Products />
       <Link to="/">Go back to the homepage</Link>
     </Layout>
   )

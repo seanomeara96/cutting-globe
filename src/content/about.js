@@ -15,7 +15,18 @@ export const aboutCG = {
     {
       title: "Why use The Cutting Globe",
       content: [
-        `For over 4000 years gardeners have been air-layering plants and shrubs with great success. Bonsai masters have perfected this method of propagation and continue to this day to use it with great success. There are many advantages to using the cutting globe to airlayer your trees and shrubs etc. The predrilled holes give you a good root to stem ratio for your plants to develop once removed from the globe. Ideal for indoor plants that have grown leggy through the loss of lower foliage and for plants that are hard to root with traditional forms of propagation. The size of your cutting can be a lot bigger than what you can expect when using a traditional method, therefore saving you years in growing time. Some plants take years to flower and fruit but with this method and with your new cutting globe, your plant will flower or fruit in its first year . You can have several cutting globes on any one plant. For hydroponics you can substitute soil for rockwool or sponge.Type your paragraph here.`,
+        `
+        <p>For over 4000 years gardeners have been air-layering plants and shrubs with great success. 
+        Bonsai masters have perfected this method of propagation and continue to this day to use it with great success. </p>
+        <p>There are many advantages to using the cutting globe to airlayer your trees and shrubs etc. The predrilled holes give you a good root to stem 
+        ratio for your plants to develop once removed from the globe. Ideal for indoor plants that have grown leggy through the loss of lower foliage and
+         for plants that are hard to root with traditional forms of propagation. </p>
+        <p>The size of your cutting can be a lot bigger than what you can expect when 
+        using a traditional method, therefore saving you years in growing time. </p>
+        <p>Some plants take years to flower and fruit but with this method and 
+        with your new cutting globe, your plant will flower or fruit in its first year . You can have several cutting globes on any one plant. 
+        For hydroponics you can substitute soil for rockwool or sponge.</p>
+         `,
       ],
     },
     {
